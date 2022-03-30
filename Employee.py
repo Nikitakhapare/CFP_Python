@@ -1,9 +1,9 @@
 '''
 @Author: Nikita
-@Date: 2022-03-30 22: 15: 00
+@Date: 2022-03-30 22: 32: 00
 @Last Modified by: Nikita
-@Last Modified time: 2022-03-30 : 22: 15:00
-@Title: Store Daily Wage and T0tal Wage 
+@Last Modified time: 2022-03-30 : 22: 32:00
+@Title: Store Day and Daily Wage and Total Wage 
 '''
 
 import random
@@ -41,7 +41,7 @@ Return:
         check=random.randint(0,2)
         working_hours=workingHr(check)
         Daily_Wage=working_hours*Rate_Per_Hour
-        print("Daily Wage of Employee is ",Daily_Wage)
+        print("For Day ",Total_Working_Days,"Daily Wage of Employee is ",Daily_Wage)
         Total_Emp_Hours=Total_Emp_Hours+working_hours
 
     employee_salary=(Rate_Per_Hour*Total_Emp_Hours)
