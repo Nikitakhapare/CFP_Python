@@ -1,9 +1,9 @@
 '''
 @Author: Nikita
-@Date: 2022-03-30 20: 25: 00
+@Date: 2022-03-30 22: 15: 00
 @Last Modified by: Nikita
-@Last Modified time: 2022-03-30 : 20: 25:00
-@Title: Calculating Employee Wage for a Month
+@Last Modified time: 2022-03-30 : 22: 15:00
+@Title: Store Daily Wage and T0tal Wage 
 '''
 
 import random
