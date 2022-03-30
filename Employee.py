@@ -26,6 +26,7 @@ def calculate_Hr():
     Max_Working_Hours_In_Month=100
     Total_Emp_Hours=0
     Total_Working_Days=0
+    
     """
 Description:
       Function to calculate Total Hr
@@ -39,11 +40,13 @@ Return:
         Total_Working_Days+=1
         check=random.randint(0,2)
         working_hours=workingHr(check)
+        Daily_Wage=working_hours*Rate_Per_Hour
+        print("Daily Wage of Employee is ",Daily_Wage)
         Total_Emp_Hours=Total_Emp_Hours+working_hours
 
     employee_salary=(Rate_Per_Hour*Total_Emp_Hours)
     print("Total Working Hours is : ",Total_Emp_Hours)
-    print("Employee's Monthly Wage is:",employee_salary)
+    print("Employee's Total Wage is:",employee_salary)
     
 calculate_Hr()
 
